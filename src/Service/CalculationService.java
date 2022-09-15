@@ -2,7 +2,7 @@ package Service;
 
 import java.util.List;
 
-public class CaluculationService {
+public class CalculationService {
 
     public static <T extends  Comparable<T>> T max(List<T> list){
         if (list.isEmpty()){
@@ -15,12 +15,12 @@ public class CaluculationService {
                 max = item;
 
 
-                }
+
             }
 
-            return max;
+
         }
 
-
+        return max;
     }
 }
